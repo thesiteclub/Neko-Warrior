@@ -1,5 +1,5 @@
 
-var game = new Phaser.Game(720, 720, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render },false, false);
+var game = new Phaser.Game(720, 720, Phaser.AUTO, 'dw', { preload: preload, create: create, update: update, render: render },false, false);
 var tile_size=24;
 
 function preload() {
